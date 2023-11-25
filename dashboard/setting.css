@@ -1,0 +1,110 @@
+
+
+li.settings{
+    padding: 10px; 
+    background-color: rgb(4, 242, 16);
+    border-radius: 5px;
+
+    
+}
+li.dashboard{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px; 
+    background-color: rgba(1, 82, 6, 0.05);
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    
+}
+.dashboardAnchor{
+    color: rgb(4, 242, 16);
+   }
+   li > a > i.dfill{
+    text-decoration: none;
+    color: rgb(4, 242, 16);
+    padding: 5px;
+    font-size: 23px;
+}
+ .sfill{
+    color: white;
+ }
+
+li > a{
+    text-decoration: none;
+    color: rgb(4, 242, 16);
+    padding: 5px;
+    font-size: 23px;
+}
+.settingAnchor{
+    color: white;
+   }
+
+   .switcherMenus{
+    margin-top: 20px;
+   }
+   .switcherMenus > a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgba(0, 35, 3, 0.646);;
+   }
+   a.profile{
+    color: rgb(4, 242, 16);
+    padding: 10px;
+    border-bottom: 2px solid rgb(4, 242, 16);
+   }
+   .linehrone{
+    margin-top: 11px;
+   }
+   .profleContent{
+    height: 200px;
+    width: 100%;
+    background-image: url('./assets/mern.jpg');
+    object-fit: contain;
+    
+   }
+   .ProfilePicture > img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(4, 242, 16);
+    object-fit: cover;
+    margin-top: -50px;
+    margin-left: 20px;
+   }
+
+.editData{
+    margin-top: 40px;
+}
+div.formgroup{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+ div.formgroup > input, div.formgroup > textarea{
+    outline: none;
+    border: 1px solid rgb(4, 242, 16);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: transparent;
+}
+.updatebtn{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(4, 242, 16);;
+    border: 1px solid rgb(4, 242, 16);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.editData .formgroup > label{
+    font-size: 20px;
+}

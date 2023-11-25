@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(103, 187, 107, 0.066);
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    /* border-bottom: 1px solid black;
+     */
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+.navLeft{
+
+    display: flex;
+    justify-content: start;
+    margin: 10px;
+    align-items: center;
+}
+.logo{
+    color: rgb(4, 242, 16);
+}
+.logo .logoIcon,.logoHeading{
+    font-size: 30px;
+    font-weight:  bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.search{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+}
+.search > input{
+    outline: none;
+    border: 1px solid rgb(4, 242, 16);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    
+}
+.searchIcon{
+    background-color: rgb(4, 242, 16);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+}
+.navRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navMenu{
+    display: flex;
+    align-items: center;
+}
+.navMenu > a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 600;
+}
+.navMenu >a:hover,:active{
+    color: rgb(4, 242, 16);
+}
+.user{
+    display: flex;
+    margin-left: 50px;
+    
+
+}
+.user > img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(4, 242, 16);
+}
+.user .name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.name > span{
+    color: #333;
+}
+.userName{
+    color: #000;
+    font-weight: 700;
+}
+
+.mobile{
+    display: none;
+}
+.hero{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-left: 0;
+}
+.userDetails{
+    display: flex;
+    align-items: center;
+}
+.userDetails > img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: none !important;
+    object-fit: cover;
+}
+.userDetails .userDetailsNamee{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.hello{
+    color: #333 !important;
+    font-size: 25px;
+    font-weight: 400;
+}
+.userDetailsName{
+    display: flex !important;
+    color: #000;
+    font-weight: 700;
+    font-size: 50px !important;
+
+}
+.hero .dpCard > img{
+    height: 300px;
+    width: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.line{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hrline{
+    width: 90%;
+    
+}
+.container{
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+
+}
+.sidebar{
+    flex: 30%;
+    /* border-right: 1px solid white; */
+    /* background: red; */
+    padding: 20px;
+}
+.sidebarContainer > li{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px; 
+    background-color: rgba(1, 82, 6, 0.05);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+li.dashboard{
+    padding: 10px; 
+    background-color: rgb(4, 242, 16);
+    border-radius: 5px;
+
+    
+}
+
+li > a{
+    text-decoration: none;
+    color: rgb(4, 242, 16);
+    padding: 5px;
+    font-size: 23px;
+}
+.dashboardAnchor{
+ color: white;
+}
+li > a > i{
+    
+    color: rgb(4, 242, 16);
+    
+}
+li > a > i.dfill{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 23px;
+}
+
+.newLine{
+    margin: 20px 0;
+    color: 1px solid #4444445c;
+}
+
+
+.mainContent{
+    flex: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.mainContent .title{
+    color: rgb(0, 37, 2);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.achivement{
+    display: flex;
+    justify-content: space-between;
+
+}
+.enrolledCourse, .activeCourse, .completedCourse{
+    padding: 50px;
+    border: 1px solid #4444445c;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    border-radius: 5px;
+}
+div.icon{
+    /* background-color: red; */
+    background-color: rgba(1, 82, 6, 0.121);
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.icon > i{
+    font-size: 35px;
+    color: rgb(4, 242, 16);
+}
+h1.count{
+    color: rgb(0, 37, 2);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+.achivement .enrolledCourse, .activeCourse, .completedCourse > h3{
+    color: rgba(0, 48, 3, 0.321);   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}  
+.progress{
+    display: flex;
+    flex-direction: column;
+}
+.courseCard{
+    display: flex;
+    border: 1px solid #4444445c;
+    border-radius: 5px;
+}
+.courseCard > img{
+    height: 200px;
+    border-radius: 5px 0px 0px 5px;
+}
+.courseContent{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.review{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.review > i{
+    color: rgb(255, 140, 0);
+}
+.review > span{
+    color: rgba(0, 48, 3, 0.321);   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+h2.inProgress{
+    margin-top: 20px;
+}
+h3.courseTitle{
+    color: rgb(0, 37, 2);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+h4.lesson{
+    color: rgba(0, 48, 3, 0.321);   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+h4 > span{
+    color: rgb(0, 37, 2);
+}
+.progressBarContent{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progressContainer{
+    width: 300px;
+    height: 10px;
+    background-color: rgba(1, 82, 6, 0.121);
+    border-radius: 5px;
+    
+    margin-top: 30px;
+    overflow: hidden;
+}
+.progressBar{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(4, 242, 16);
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+.complte{
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+footer{
+    background-color: rgb(1, 72, 5);
+    display: flex;
+    justify-content: center;align-items: center;
+    padding: 20px;
+    /* width: 100%; */
+}
+footer > h3{
+    color: rgba(255, 255, 255, 0.445);
+    font-size: 15px;
+}
+@media only screen and (max-width:480px){
+   .nav{
+    display: flex;
+    /* padding: 0; */
+    padding-left: 0;
+    width: 100vw;
+   }
+    .logo .logoIcon,.logoHeading{
+        font-size: 18px;
+    }
+    .search, .navMenu, .user{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+   
+    .userDetails > img{
+        height: 100px;
+        width: 100px;
+        
+    }
+    .userDetailsName{
+        font-size: 30px !important;
+    
+    }
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero .dpCard > img{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    
+    }
+    .sidebar{
+        flex: 100%;
+        /* border-right: 1px solid white; */
+        /* background: red; */
+        padding: 10px;
+    }
+    .sidebarContainer > li > a >span{
+       display: none;
+    }
+}

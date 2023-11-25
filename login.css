@@ -1,0 +1,22 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loginData{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+a.button{
+    /* width: 200px; */
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(4, 242, 16);;
+    border: 1px solid rgb(4, 242, 16);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

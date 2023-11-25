@@ -1,0 +1,59 @@
+
+
+li.myProfile{
+    padding: 10px; 
+    background-color: rgb(4, 242, 16);
+    border-radius: 5px;
+
+    
+}
+li.dashboard{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px; 
+    background-color: rgba(1, 82, 6, 0.05);
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    
+}
+.dashboardAnchor{
+    color: rgb(4, 242, 16);
+   }
+   li > a > i.dfill{
+    text-decoration: none;
+    color: rgb(4, 242, 16);
+    padding: 5px;
+    font-size: 23px;
+}
+ .pfill{
+    color: white;
+ }
+
+li > a{
+    text-decoration: none;
+    color: rgb(4, 242, 16);
+    padding: 5px;
+    font-size: 23px;
+}
+.profileAnchor{
+    color: white;
+   }
+
+.profileContent {
+    display: flex;
+    
+}
+.profileContentLeft, .profileContentRight{
+/* background-color: red; */
+display: flex;
+flex-direction: column;
+}
+.profileContentLeft > label, .profileContentRight > label{
+margin-top: 20pt;
+margin-right: 50pt;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.profileContentLeft > label{
+    color: rgba(0, 48, 3, 0.521);  
+}

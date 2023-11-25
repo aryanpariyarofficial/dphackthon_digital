@@ -1,0 +1,65 @@
+table{
+    /* border: 1px solid #555; */
+    border-radius: 5px;
+    /* padding: 10px; */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,th{
+   border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    text-align: left;
+}
+th{
+    background-color: rgba(4, 242, 16, 0.105);
+    border-radius: 5px 5px 0 0;
+}
+.orderCompleted{
+    background-color: rgba(4, 242, 16, 0.105);
+    border-radius: 20px;
+    border: 1px solid rgba(4, 242, 16, 0.105);
+    outline: none;
+    padding: 5px;
+}
+
+li.orderHistory{
+    padding: 10px; 
+    background-color: rgb(4, 242, 16);
+    border-radius: 5px;
+
+    
+}
+li.dashboard{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px; 
+    background-color: rgba(1, 82, 6, 0.05);
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    
+}
+.dashboardAnchor{
+    color: rgb(4, 242, 16);
+   }
+   li > a > i.dfill{
+    text-decoration: none;
+    color: rgb(4, 242, 16);
+    padding: 5px;
+    font-size: 23px;
+}
+ .ofill{
+    color: white;
+ }
+
+li > a{
+    text-decoration: none;
+    color: rgb(4, 242, 16);
+    padding: 5px;
+    font-size: 23px;
+}
+.orderAnchor{
+    color: white;
+   }

@@ -1,0 +1,43 @@
+li.reviews{
+    padding: 10px; 
+    background-color: rgb(4, 242, 16);
+    border-radius: 5px;
+
+    
+}
+li.dashboard{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px; 
+    background-color: rgba(1, 82, 6, 0.05);
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    
+}
+.dashboardAnchor{
+    color: rgb(4, 242, 16);
+   }
+.reviewAnchor{
+    color: white;
+   }
+   li > a > i.dfill{
+    text-decoration: none;
+    color: rgb(4, 242, 16);
+    padding: 5px;
+    font-size: 23px;
+}
+ .rfill{
+    color: white;
+ }
+ .certificationData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .certificationData > img{
+    width: 200px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+ }
